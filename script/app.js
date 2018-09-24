@@ -47,11 +47,12 @@ var res=suma(88, 55);
 console.log(res);
 */
 
-function ivaProducto(valor_Producto){
+function ivaproducto(valor_producto){
 	var iva = valor_Producto*0.19;
 	return iva;
 }
 
-var resul=ivaProducto(20000);
+
+var resul=ivaproducto(20000);
 console.log(resul);
 
