@@ -47,12 +47,20 @@ var res=suma(88, 55);
 console.log(res);
 */
 
+<<<<<<< HEAD
 function ivaproducto(valor_producto){
+=======
+function ivaProducto(valor_Producto){
+>>>>>>> 9ab1a8cc658387b350c9259cffeb2f02a2aa37a1
 	var iva = valor_Producto*0.19;
 	return iva;
 }
 
+<<<<<<< HEAD
 
 var resul=ivaproducto(20000);
+=======
+var resul=ivaProducto(20000);
+>>>>>>> 9ab1a8cc658387b350c9259cffeb2f02a2aa37a1
 console.log(resul);
 
