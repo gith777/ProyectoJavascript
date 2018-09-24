@@ -36,7 +36,7 @@ for(var cont=0; cont<7; cont++){
 	console.log(dias[cont]);
 }
 
-*/
+
 
 function suma(numero1, numero2){
 	var resultado= numero1 + numero2;
@@ -45,3 +45,13 @@ function suma(numero1, numero2){
 
 var res=suma(88, 55);
 console.log(res);
+*/
+
+function ivaProducto(valor_Producto){
+	var iva = valor_Producto*0.19;
+	return iva;
+}
+
+var resul=ivaProducto(20000);
+console.log(resul);
+
